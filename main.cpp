@@ -9,11 +9,11 @@ int main()
     string in;
     cout <<"########Program 1.34######### "<<endl;
 
-    while (i <= 10) {
+    while (i <= 100) {
 
 
         if(i == 0){
-            cout <<"program is ready to run.quit or run?(type run or quit)"<<endl;
+            cout <<"program is ready to run. quit or run?(type run or quit)"<<endl;
             cin >> in;
             i++;
              if (in == "quit") {
@@ -26,9 +26,9 @@ int main()
              }
         }
 
-        if(i == 5){
-            cout << i << "% \n";
-            cout <<"you are at 5%.Do you want quit or run?(type run or quit)"<<endl;
+        if(i == 50){
+            cout <<"PROGRESSING.........("<< i << "%) \n";
+            cout <<"you are at 50%. Do you want quit or continue?(type run or quit)"<<endl;
             cin >> in;
             i++;
              if (in == "quit") {
@@ -38,14 +38,14 @@ int main()
              continue;
              }
         }
-        else if(i == 10){
-            cout << i << "% \n";
+        else if(i == 100){
+            cout <<"PROGRESSING.........("<< i << "%) \n";
             cout<<"Progress complete"<<endl;
             break;
 
         }
         else{
-            cout << i << "% \n";
+            cout <<"PROGRESSING.........("<< i << "%) \n";
             i++;
         }
 
